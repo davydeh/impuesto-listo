@@ -1,0 +1,354 @@
+/*
+	MAIN STYLES
+*/
+body,
+html {
+	font-family: "Droid Sans", "Open Sans", sans-serif;	
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", "Open Sans", sans-serif;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+	padding: 60px 0;
+	max-width: 980px;
+}
+
+section {
+	margin: 0;
+}
+
+/*
+	HEADER
+*/
+
+.header-main {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	height: 60px;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+	margin: 0 0 0 40px;
+	text-decoration: none;
+	font: 21px/60px "Montserrat";
+	color: #333;
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active {
+	color: #FFF;
+}
+
+.main-nav {
+	margin: 0 40px 0 0;
+	float: right;
+	line-height: 60px;
+}
+
+.main-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin: 0 0 0 10px;	
+}
+
+.main-nav li a {
+	text-decoration: none;
+	font: 14px/1 "Droid Sans";
+	display: block;
+	color: #333;
+}
+
+
+/*
+	HERO UNIT
+*/
+
+.hero {
+	padding-top: 60px;
+}
+
+.hero__headline,
+.hero__sub-headline {
+	margin: 0;
+	text-align: center;
+	color: #EEE;
+}
+
+.hero__headline {
+	margin: 0 0 12px;
+}
+
+.hero__sub-headline {
+	margin-bottom: 60px;
+}
+
+.benefits-wrapper {
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.benefits {
+	max-width: 400px;
+	line-height: 1.5;
+}
+
+.benefits__headline {
+	
+}
+
+.benefits__description {
+	margin: 0 0 10px;
+}
+
+.benefits__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.benefits__list li .fa {
+	color: #4D7;
+}
+
+.register {
+	margin: -20px 0 0;
+	max-width: 340px;
+	float: right;
+}
+
+.register__description {
+	line-height: 1.5;
+	margin: 0 0 20px;
+}
+
+.register__form {
+	margin: 0 0 0 10px;
+	max-width: 260px;
+}
+
+.register__form input,
+.register__form button {
+	display: block;
+	padding: 0 10px;
+	width: 100%;
+	line-height: 35px;
+}
+
+.register__form input{
+	margin-bottom: 10px;
+}
+
+.register__form label {
+	font-size: 12px;
+}
+
+.register__microcopy {
+	margin: 5px 0 0;
+	font-size: 11px;
+	color: #999;
+	text-align: center;
+}
+
+
+/*
+	FEATURES
+*/
+
+.features__item {
+	text-align: center;
+}
+
+.features__icon {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 auto;
+	background-color: #EEE;
+	text-align: center;
+
+	-webkit-border-radius: 50px;
+	   -moz-border-radius: 50px;
+			border-radius: 50px;
+}
+/*
+.features__icon::after {
+	content: "";
+	display: block;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: #CCC;
+	text-align: center;
+	z-index: 0;
+
+	-webkit-border-radius: 45px;
+	   -moz-border-radius: 45px;
+			border-radius: 45px;
+}*/
+
+.features__icon i {
+	vertical-align: middle;
+}
+
+
+/*
+	VIDEO
+*/
+
+.video__headline {
+	text-align: center;
+	margin: 0 0 20px;
+}
+
+.video__wrapper {
+	float: none;
+	margin: 0 auto;
+}
+
+.video__microcopy {
+	margin: 10px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+/*
+	TESTIMONIALS
+*/
+
+.testimonials__wrapper {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.testimonials__quote {
+	position: relative;
+	margin: 0 0 15px 0;
+	padding: 20px;
+	font-size: 12px;
+	background-color: #EEE;
+}
+
+.testimonials__quote::after {
+	content: "";
+	display: block;
+	height: 0;
+	width: 0;
+	position: absolute;
+	bottom: -19px;
+	left: 20px;
+	border-width: 10px;
+	border-color: #EEE transparent transparent transparent;
+	border-style: solid;
+}
+
+.testimonials__user {
+	margin: 0 0 0 5px;
+	font-size: 12px;
+}
+
+
+/*
+	CLOSURE	
+*/
+
+.closure {
+
+}
+
+.closure__headline {
+	margin: 0 0 20px;
+	text-align: center;
+}
+
+.closure__cta {
+	display: block;
+	width: 280px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+
+	background-color: #EEE;
+	
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+			border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
