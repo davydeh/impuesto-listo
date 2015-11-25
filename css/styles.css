@@ -172,9 +172,9 @@ section {
 .hero {
 	padding-top: 60px;
 	background-color: #377DDD;
-	background-image: url('../img/header-bg.png?1');
+	background-image: url('../img/header-bg1.png?1');
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: top left;
 	background-size: cover;
 	min-height: 80vh;
 }
@@ -363,7 +363,7 @@ section {
 	margin: 10px 0;
 	text-align: center;
 	font-size: 12px;
-	color: #87B1EB;
+	color: #A5C5EF;
 }
 
 /*
@@ -385,13 +385,13 @@ section {
 	color: #333;
 	background-color: #FAFAFA;
 
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-			border-radius: 3px;
-
-	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.3);
-	   -moz-box-shadow: 0 1px 1px rgba(0,0,0,.3);
-			box-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+			border-radius: 2px;
+	
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	   -moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+			box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
 
 .testimonials__quote::before,
@@ -402,7 +402,7 @@ section {
 	width: 0;
 	position: absolute;
 	bottom: -19px;
-	left: 20px;
+	left: 24px;
 	border-width: 10px;
 	border-color: #FBFBFB transparent transparent transparent;
 	border-style: solid;
@@ -415,8 +415,8 @@ section {
 
 .testimonials__quote::after {
 	bottom: -21px;
-	left: 20px;
-	border-color: rgba(0,0,0,.17) transparent transparent transparent;
+	border-color: #ECECEC transparent transparent transparent;
+	border-color: rgba(0,0,0,.05) transparent transparent transparent;
 	z-index: 0;
 }
 
@@ -427,15 +427,15 @@ section {
 
 .testimonials__user-avatar {
 	float: left;
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     border-radius: 50%;
     margin: 5px 10px 0 1px;
-    border: 3px solid #38A0D8;
+    /*border: 3px solid #38A0D8;*/
 }
 
 .testimonials__username {
-	padding-top: 10px;
+	padding-top: 15px;
 	font-size: 14px;
 	font-weight: 600;
 }
@@ -488,7 +488,7 @@ section {
 	max-width: 260px;
 	margin: 8px auto;
 	font-size: 12px;
-	color: #87B1EB;
+	color: #A5C5EF;
 	text-align: center;
 }
 
@@ -830,5 +830,18 @@ section {
 	.footer-wrapper {
 		max-width: 1080px;
 	}
+
+	.hero__headline {
+		margin-top: 12vh;
+	}
+	
+	.hero__sub-headline {
+		margin-bottom: 8vh;
+	}
+
+	.benefits-wrapper {
+		width: 80%;
+	}
+
 }
 
